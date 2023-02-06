@@ -1,0 +1,11 @@
+Akshay Bapat Notebook
+Table of Contents
+1. Week 1
+2. Week 2
+
+
+2/06/2023
+Group met to work on the 445 team proposal for our footballytics project. We went over design requirements and revised our block diagram while creating
+detailed weekly checkpoints and goals we wish to achieve.
+
+Akshay Bapat
