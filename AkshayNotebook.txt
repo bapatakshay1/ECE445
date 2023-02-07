@@ -6,6 +6,9 @@ Table of Contents
 
 2/06/2023
 Group met to work on the 445 team proposal for our footballytics project. We went over design requirements and revised our block diagram while creating
-detailed weekly checkpoints and goals we wish to achieve.
+detailed weekly checkpoints and goals we wish to achieve. We were able to complete a rough draft proposal including Problem and Solution Statements, Block Diagram, Design subsystem overviews, and an Ethics/Safety portion.
 
 Akshay Bapat
+
+2/07/2023
+Will be meeting with the TA to go over roughdraft for the proposal-deadline for the proposal is Thursday Feb 9th.
