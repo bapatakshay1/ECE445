@@ -1,4 +1,18 @@
 Lab Notebook for Vibhav Adivi
 
 2/06/2023
-- Begin a first draft of the project proposal and start deciding the 
+- Begin a first draft of the project proposal, incorporate block diagrams and initial parts we can use to get our final project.
+- Finalize a basic design to be able to move forward on the project.
+
+2/07/2023
+- First Meeting with TA to review progress on project
+
+2/09/2023
+- Finalize and submit project proposal
+
+2/14/2023
+- Parts that we will be using probably:
+  ESP32 microcontroller
+  DW1000 UWB device
+  Bosch BNO055 9-axis device
+  some form of power at 3.3V
