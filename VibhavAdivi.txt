@@ -16,3 +16,15 @@ Lab Notebook for Vibhav Adivi
   DW1000 UWB device
   Bosch BNO055 9-axis device
   some form of power at 3.3V
+
+From the TA meeting
+
+Tolerance Analysis
+- If you play with the football, will the components be robust enough?
+- How long will battery last?
+
+It's worth looking into spare parts of the cheaper components so that if they break in testing we're cool.
+
+Question to ask: How many PCB orders can we send out? (for the anchors + main)
+
+Make a list of parts that we need
