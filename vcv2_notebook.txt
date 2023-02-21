@@ -1,5 +1,6 @@
 Week 1: 2/6-2/13: Proposal
 Week 2: 2/13-2/20: Rough draft of design doc
+Week 3: 2/20-27: Finalizing design doc and schematics
 2/6/23
 -Began our rough draft of project proposal
 -Added block diagram, design requirements, 
@@ -24,11 +25,14 @@ https://www.adafruit.com/product/2011 2000 maH and .2 capacity at 4 hours
 ESP32 PIN1 VDDA
 DW1000 VDDAON PIN 25
 BOSCH PIN 3 VDD
-2/18/23
+2/18/23: Starting design doc
 -Drew basic kicad schematic for recharging a 3.7 Li battery
 -Began rough draft of design doc
-2/19/23
+2/19/23: Finalizng design doc for TA meetng
 -Wrote tolerance analysis
 -tried to calculate newtons on our ball during basic football play
 -worried about punt as it is a kick directly on location of pcb
 -Added to subsystem of charging module and actuation in design doc
+2/21/23
+-Adding detail to charging module subsytem(battery, recharge circuit, Micro-USB)
+-Do schematics need to be on our design doc, and testing physical conditions?
