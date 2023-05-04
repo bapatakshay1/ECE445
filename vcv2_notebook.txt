@@ -109,4 +109,120 @@ TI’s TPS61098 is a Low input voltage, 4.3-V output voltage, synchronous boost 
 -Individual progress report due Wed
 
 3/27/23
+OBJ: Find out how to get a stencil
 -Attended PCB review session. Found that we don't need to buy stencil on our own; comes with PCBway order
+
+3/30/23
+OBJ: Check on breakout boards/headerstrips
+-Checked if ECE shop had breakout boards and header strips to attach DW1000 to breadboard for testing. Header strips were too big, and no PCB breakout boards, so ordered those.
+-Checked for our PCB, but was not here. Have to email Vishal Dayalan
+
+4/03/23
+-PCB was never ordered according to Vishal. We need to remake our Kicad schematic to fit the order requirements(less than five dollars, holes bigger than 3, less than 100mm by 100mm)
+
+4/04/23
+-Had TA meeting today so Vibhav and I checked to see what parts were here and what we could test. First order came in so DW1000 and power components
+
+4/05/23
+-Vibhav and Akshay working on new Kicad schematic so I made design for enclosure
+-https://www.amazon.com/Maine-Thread-Standard-Polycord-Natural/dp/B01BMSMEAC/ref=sr_1_5?crid=24M1NAN73O6IV&keywords=polycord&qid=1680743228&sprefix=polycord%2Caps%2C109&sr=8-5&th=1 for the polycord
+Maine Thread - .030" Standard Pack Waxed Polycord. White, Black, Br...
+Maine Thread Waxed Polyester Cord: This 100% Filament Polyester is dyed, textured, twisted (right twist), waxed, and wound. 030" waxed thread has a diameter of .76 mm or .030" (30/1000 of an inch), comparable to the thickness of a credit card. .030" has a breaking point of 30 LBS. 210 feet on eac...
+Image
+https://www.amazon.com/Zulkit-Project-Plastic-Electrical-Junction/dp/B07W9H8M3Z/ref=sr_1_2?crid=45B025A0ZQGI&keywords=pcb+enclosure&qid=1680743433&sprefix=pcb+enclosur%2Caps%2C118&sr=8-2 for our actual enclosure
+Zulkit 5 Packs Project Boxes ABS Plastic Electrical Project Case Po...
+Zulkit 5 Packs Project Boxes ABS Plastic Electrical Project Case Power Junction Box Black 3.54 x 2.76 x 1.10 inch (90 x 70 x 28 mm)
+Image
+https://www.amazon.com/Gorilla-Removable-Mounting-3-Pack-Off-White/dp/B08BGW19DK/ref=sr_1_6?crid=R4229W40HAUB&keywords=putty&qid=1680743570&sprefix=putty%2Caps%2C120&sr=8-6&th=1
+Gorilla Removable Mounting Putty, 84 Pre-cut Squares, Off White (Pa...
+Gorilla Removable Mounting Putty, 84 Pre-cut Squares, Off White (Pack of 3)
+Image
+to actually stick our hooks
+https://www.amazon.com/Ceiling-Coated-Screw-Kitchen-Hanging/dp/B08ZSDW8S1/ref=sxin_16_ac_d_hl?ac_md=1-0-T3ZlcmFsbCBDaG9pY2U%3D-ac_d_hl_hl_ac&content-id=amzn1.sym.ea5a3043-3172-4e81-bcc4-eb7524db4f7c%3Aamzn1.sym.ea5a3043-3172-4e81-bcc4-eb7524db4f7c&crid=2C68IYPBLNG56&cv_ct_cx=small+hooks&keywords=small+hooks&pd_rd_i=B08ZSDW8S1&pd_rd_r=e24ed266-bfd6-4975-b8f7-76fac59f447a&pd_rd_w=wZFvD&pd_rd_wg=3JMsK&pf_rd_p=ea5a3043-3172-4e81-bcc4-eb7524db4f7c&pf_rd_r=J5AWGKF88ZVQ80HRV57N&qid=1680743547&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=small+hooks%2Caps%2C103&sr=1-1-25fd44b4-555a-4528-b40c-891e95133f20
+Romeda 90 Pcs White Ceiling Hooks kit, 6 Sizes Vinyl Coated Screw-i...
+Romeda 90 Pcs White Ceiling Hooks kit, 6 Sizes Vinyl Coated Screw-in Ceiling Hooks, Plant Hooks Kitchen Hooks Cup Hooks Ceiling Hooks for Hanging (1/2", 5/8",3/4",7/8",1'',1-1/4")
+-we cut open a football, and we attach hooks to all 6 sides to our enclosure which is connected by polycord to our football
+and then we reseal the football and inflate it and the polycord and hooks should still hold
+I want to do a little more research on how to actual open and reseal a football
+-Also fixed some of Akshays design. He forgot to generate a drill file
+
+4/06/23
+-PCB order finally sent in today. Had to take off rechargeable circuit so most likely looking at devkits and breadboardable sensors for our demo
+-Sensors to order:
+https://www.amazon.com/SparkFun-Breakout-ICM-20948-connection-Accelerometer-Magnetometer/dp/B07VNV3WKL/ref=sr_1_5?crid=3UFUVB3828SPJ&keywords=9+axis+imu&qid=1680803002&sprefix=9+axis+imu%2Caps%2C164&sr=8-5
+SparkFun 9DoF IMU Breakout-ICM-20948 Low power I2C & SPI enabled 9 ...
+SparkFun 9DoF IMU Breakout-ICM-20948 Low power I2C & SPI enabled 9 axis motion tracking Includes Logic shifter Qwiic connection GPIO pins Digital Motion Processor Accelerometer Gyroscope Magnetometer
+Image
+https://www.amazon.com/HiLetgo-Atmospheric-Pressure-Temperature-Humidity/dp/B01N47LZ4P/ref=sr_1_16?crid=Z49TMQ09DIFD&keywords=barometric+sensor+esp32&qid=1680803068&sprefix=barometric+sensor+esp32%2Caps%2C100&sr=8-16
+HiLetgo BME280 3.3V Atmospheric Pressure Sensor GY-BME280-3.3 Tempe...
+HiLetgo BME280 3.3V Atmospheric Pressure Sensor GY-BME280-3.3 Temperature Humidity Sensor Module for Arduino
+
+4/08/23
+-Sensors ordered
+
+4/10/23
+-IMU here. Will connect using I2C to ESP32 Devkit on breadboard
+
+4/11/23
+OBJ: To test the devkits and see if we can get good measurements
+-We worked today on getting the Devkits to show measured distance. We got a tape measure to see if the tag and the anchor distance was one meter; tag connected to computer and anchor connected to power
+-The displayed distance is too big, but changes as we get closer and further
+-How do we make it more accurate?
+
+4/12/23
+OBJ: Make our Location tracking more accurate
+-We are testing with three anchors, one at (0,0) one at (1,0), one at (0,1), all in meters
+-Trilateration eq:
+-
+-With the trilateration equation, there are still a lot of fluctuations, because the single measurements are changing and/or wrong
+-Tag can still get basic coordinates, might need to take z axis into account
+
+4/13/23
+OBJ:Get IMU to work
+-We hooked up IMU to power and we saw that it was working
+-We tried hooking up the SPI ports to ESP32 but we dont have the correct drivers for the microcontroller
+-Barometer came in, tried to see if that would work
+
+4/16/23
+OBJ: Get IMU and Barometer to spit out values
+-IMU was hooked up instead through I2C as only DW1000 needed SPI, we are seeing values , barometric sensor sending weird output, all squares
+-IMU values are numbers but unknown units, we need to calibrate the sensor
+-Ordered a football
+
+4/17/23
+OBJ: Check to see if we can insert anything to a football
+-I cut the laces off the football to open it up, https://www.youtube.com/watch?v=knZ5pFnuvb8
+-Underneath the pigskin is an inflatable bladder, that can be pulled out of the football, once deflated
+-If we finish the rest, we can play with this ball to see if we can get anything
+
+4/18/23
+OBJ: Improve the project by making visualization/Mock Demo
+-We need to use the x and y coordinates to make a visualization for demo
+-Also integrate Python into serial data
+-Mock demo showed we need the above
+
+4/22/23
+OBJ: Get the distances to be calibrated better
+- Vibhav finished visualization, but still very inaccurate and moves around a lot
+-There is an antenna delay parameter that needs to be calculated. There is some code online according to this link: https://how2electronics.com/getting-started-with-esp32-dw1000-uwb-ultra-wideband-module/#What_is_Antenna_Delay_of_DW1000
+-We got close with a fact of 16584/16585
+
+4/23/22
+OBJ: calibrate IMU and DW1000 so they are accurate
+- IMU uses units of milli gs so we need to convert to m/s^2. We did that by dividing by 1000 and multiplying by 9.81, when we did that, we saw a acceleration 9.6 consistent with the force of gravity in Z. Once we subtracted this number, while it was prone to fluctuation, still mostly accurate. We tested the accuracy by simply moving the tag 3 seconds 1 meter and it was within .05 m/s^2,
+-Gyroscope not necessary to calibrated, we rotated tag one second ninety degrees in all axes and displayed values reflected that within 5 degrees p sec
+- We continued experimentally taking data for different Adelay factors to get it within 30 cm of real distance
+-Also taking average of values over .1 second brings fluctuation down greatly
+-Got bluetooth to work, but a little iffy, sometimes does not connect to computer
+
+
+4/24/22
+OBJ: Finalize for Demo tomorrow
+-Probably need to make sure distance is a little more consistent; TA suggested using accelerometer, so wehn Tag is moving, update position, otherwise, don't
+-We need to integrate the IMU code into the visualization; make it easier for audience to see, and make sure bluetooth does not affect any of our metrics
+
+4/25/23
+OBJ: Get project demo ready
+-Tried TA suggestion, but if first value is wrong, then position on visualization will stay wrong, need to keep averaging
+-Acceleration and Gyroscope values seem fine, we tested position in room 2074 using tape measure from anchor (0,0) to whatever position Tag was at, within 30 cm
+-Demo Finished, we did good
